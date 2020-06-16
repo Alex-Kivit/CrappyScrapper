@@ -36,6 +36,7 @@ def get_fb_page(url, driver):
     return page
 
 def main():
+    
     target_name = input("Enter the name of the target person: ")
     print("Enter", target_name, "Facebook id: ")
     uid = input()
@@ -104,5 +105,6 @@ def main():
           os.remove(target_name+'_friends.csv')
     friends.to_csv(target_name+'_friends.csv', encoding = 'utf-8')
     print("The data was saved to", target_name+'_friends.scv')
+    input("Press Enter to exit...")
 
 main()        
