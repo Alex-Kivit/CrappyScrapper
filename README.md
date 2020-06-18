@@ -9,7 +9,7 @@ As there is no way to download the page directly, this tool is implemented by fa
 
 # How to use it?
 With the compiled version, the only requirement is to have Google Chrome installed. When you launch an application, 
-just enter the Facebook id of the person, whom friend list you want to get and follow the straight forward instructions provided by the program.
+just enter the Facebook id of the person, whom friend list you want to get and follow straight forward instructions provided by the program.
 
 **For non-compiled python version, you will need the following packages to be installed besides Chrome:**
  - html.parser
